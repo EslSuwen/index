@@ -108,3 +108,113 @@
     line-height: 40px;
     height: 40px;
 }
+
+
+/*搜索建议条*/
+#suggest {
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 40px;
+    border: 1px solid #ccc;
+    background: #fff;
+    line-height: 40px;
+}
+
+#suggest li {
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding-left: 16px;
+}
+
+#suggest li:active {
+    background: #F0F0F0;
+}
+
+#suggest li b {
+    float: right;
+    width: 44px;
+    height: 40px;
+    background:
+        url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI5JREFUSEtjZCACLF261J6RkbELpPT///9l0dHRB4nQRlgJ0ODny5Yt+w/CIDZhHUSqgBkKo4nURljZqMHwMBohQQFK/ECvnkT3LgX8kyAzGZATPwWGgTMPSiYCGvyEWgYiGfyEAcjxoKaroWZ5EM52QBUjJLkRExajQUH7Qgg5E4HYxMQLUWpgmYiUxA8AOdLMz+iDKvIAAAAASUVORK5CYII=) no-repeat scroll center center #fff;
+    background-size: 11px;
+}
+
+#suggest .close {
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+    padding-right: 12px;
+}
+
+
+#search_input {
+	width: 90%;
+	height: 40px;
+	background-color: transparent;
+	border: none;
+	outline: 0;
+	font-size: 16px;
+	color: #A593E0;
+	padding: 0 10px;
+	border-radius: 50px
+}
+
+
+
+
+
+
+
+/*搜索建议条*/
+#suggest {
+	position: absolute;
+	left: -1px;
+	right: -1px;
+	top: 40px;
+	border:1px solid #ccc;
+	background: #fff;
+	line-height: 40px;
+}
+#suggest li {
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	padding-left: 16px;
+}
+#suggest li:active {
+	background: #F0F0F0;
+}
+#suggest li b {
+	float: right;
+	width: 44px;
+	height: 40px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAI5JREFUSEtjZCACLF261J6RkbELpPT///9l0dHRB4nQRlgJ0ODny5Yt+w/CIDZhHUSqgBkKo4nURljZqMHwMBohQQFK/ECvnkT3LgX8kyAzGZATPwWGgTMPSiYCGvyEWgYiGfyEAcjxoKaroWZ5EM52QBUjJLkRExajQUH7Qgg5E4HYxMQLUWpgmYiUxA8AOdLMz+iDKvIAAAAASUVORK5CYII=) no-repeat scroll center center #fff;
+	background-size: 11px;
+}
+#suggest .close {
+	text-align: right;
+	font-size: 14px;
+	color: #888;
+	padding-right: 12px;
+}
+
+
+.search_bar {
+	-webkit-animation: fadeIn 2.5s;
+	animation: fadeIn 2.5s;
+    background-color:  rgba(255,255,255,.0);
+	border-radius: 3px;
+	display: table;
+    vertical-align: middle;
+	width: 85%;
+	height: 20px;
+	max-width: 400px;
+	margin: 10px auto;
+	position: relative;
+	z-index: 10;
+}
+
+
+
+
+
